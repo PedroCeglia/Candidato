@@ -12,7 +12,7 @@ body {
 
 @media (prefers-color-scheme: light) {
   body {
-    background: url("../public/assets/background_light.png") center;
+    background: url("../public/assets/background.png") center;
   }
 }
 
