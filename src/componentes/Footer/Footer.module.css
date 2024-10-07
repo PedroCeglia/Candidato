@@ -1,0 +1,19 @@
+.Footer {
+  width: 100%;
+  background-color: rgb(237, 219, 14);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Footer ul {
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  padding: 0 20px;
+}
+.Footer nav img {
+  width: 20px;
+}

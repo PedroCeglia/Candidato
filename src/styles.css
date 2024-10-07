@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #f8f8f8;
+  background: url("../public/assets/background.png") center;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: url("../public/assets/background_light.png") center;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: url("../public/assets/background.png") center;
+  }
+}

@@ -1,0 +1,40 @@
+.Image {
+  width: 100px;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.Container {
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgba(65, 63, 63, 0.9);
+  border-radius: 10px;
+}
+
+.ContainerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 0 20px;
+}
+
+.ContainerText h3 {
+  margin: 5px 0 10px;
+  text-align: center;
+}
+
+.ContainerText a {
+  align-self: flex-end;
+  background-color: rgba(160, 148, 12, 0.8);
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin-top: 10px;
+}
+
+.ContainerText a:hover {
+  color: #06235d;
+}

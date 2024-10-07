@@ -1,0 +1,35 @@
+.Hero {
+}
+
+.HeroMobile,
+.HeroTablet,
+.HeroDesktop {
+  width: 100%;
+  object-fit: cover;
+}
+
+.HeroTablet,
+.HeroDesktop {
+  display: none;
+}
+
+@media (min-width: 570px) and (max-width: 800px) {
+  .HeroMobile,
+  .HeroDesktop {
+    display: none;
+  }
+  .HeroTablet {
+    display: inline;
+  }
+}
+
+@media (min-width: 800px) {
+  .HeroMobile,
+  .HeroTablet {
+    display: none;
+  }
+
+  .HeroDesktop {
+    display: inline;
+  }
+}

@@ -1,0 +1,14 @@
+.ItemProposta {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(65, 63, 63, 0.9);
+  padding: 10px 5px;
+  cursor: pointer;
+}
+.ItemProposta span {
+  margin: 0 10px 0 0;
+  font-size: 1.5em;
+}
