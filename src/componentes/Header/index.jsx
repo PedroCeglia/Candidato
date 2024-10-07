@@ -58,7 +58,7 @@ export default function Header() {
       <section className={styles.HeaderMain}>
         <h1>
           <Link to="/">
-            <img className={styles.Logo} src="assets/logo_oficial.png" />
+            <img className={styles.Logo} src="assets/logo.png" />
           </Link>
         </h1>
         <button onClick={handleMenuMobile}>
