@@ -2,7 +2,7 @@ import styles from "./Footer.module.css";
 export default function Footer() {
   return (
     <footer className={styles.Footer}>
-      <img src="assets/logo_oficial.png" alt={"logo"} />
+      <img className={styles.Image} src="assets/logo.png" alt={"logo"} />
       <nav>
         <ul>
           <li>

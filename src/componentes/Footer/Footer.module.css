@@ -17,3 +17,8 @@
 .Footer nav img {
   width: 20px;
 }
+
+.Image{
+  width: 100px;
+  object-fit: cover;
+}
