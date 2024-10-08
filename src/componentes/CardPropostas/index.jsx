@@ -6,7 +6,7 @@ export default function CardPropostas({ srcImage, title, text }) {
       <img className={styles.Image} src={srcImage} alt="Proposta" />
       <div className={styles.ContainerText}>
         <h3>{title}</h3>
-        <p>{text}</p>
+        <p><span className={styles.EspacamentoParagrafo}/>{text}</p>
 
         <a>Ler Mais</a>
       </div>
