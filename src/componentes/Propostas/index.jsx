@@ -11,35 +11,38 @@ export default function Propostas() {
           srcImage={"assets/Propostas/Proposta_Seguranca.png"}
           title={"Monitoramento de cameras a partir de IAs"}
           text={`
-          Instalaremos 100.000 cameras pela cidade, para que nada aconteça na
-          rua e o estado não saiba que ocorreu. Tentando resolver os inumeros
-          casos de roubo que ocorrem pela cidade.
+          Instalaremos 100.000 câmeras pela cidade, garantindo que qualquer ocorrência nas ruas seja monitorada pelo estado. 
+          Com essa medida, buscamos reduzir os inúmeros casos de roubo que ocorrem na cidade.
           `}
         />
         <CardPropostas
           srcImage={"assets/Propostas/Proposta_Educacao.png"}
           title={"Educação do Futuro nas Escolas Integrais"}
-          text={`Vamos focar em deixar o Jovem o maximo de tempo possivel na escola. 
-          Seja por meio do esporte, atividades extra curriculares, refeições de qualidade, 
-          entre outras inovações.`}
+          text={`
+            Vamos focar em manter o jovem na escola pelo maior tempo possível, seja por meio do esporte, 
+            atividades extracurriculares, refeições de qualidade, entre outras iniciativas inovadoras.
+          `}
         />
         <CardPropostas
           srcImage={"assets/Propostas/Proposta_Saude.png"}
           title={"Salvando vidas com Disciplina e Tecnologia"}
-          text={`Vamos criar diversas IAs com o objetivo de 
-          padronizar e aperfeiçoar todos os atendimentos. 
-          Deixaremos nossos Médicos mais efetivos com uma Logistica Inovadora.`}
+          text={`
+          Vamos desenvolver diversas IAs com o objetivo de padronizar e aperfeiçoar todos os atendimentos,
+          tornando nossos médicos mais eficientes por meio de uma logística inovadora.  
+          `}
         />
         <CardPropostas
           srcImage={"assets/Propostas/Proposta_Transporte.png"}
           title={"Menos Transito Mais Saude Construindo um Rio Melhor"}
-          text={`Vamos incrementar o que há de mais tecnológico no mercado
-          para otimizar o tempo de toda população quando for trabalha. 
-          Sinais Inteligentes, Viadutos, alargamento das ruas, etc.`}
+          text={`
+            Vamos incorporar o que há de mais avançado em tecnologia para otimizar o tempo da população no deslocamento para o trabalho. 
+            Investiremos em sinais inteligentes, viadutos, alargamento de ruas, entre outras melhorias.
+        `}
         />
       </div>
-      <h2>Outras Propostas</h2>
       <div className={styles.ContainerItensProposta}>
+        <h2>Outras Propostas</h2>
+
         <ItemProposta
           title={"Militarização da guarda municiapal"}
           index={"1"}
