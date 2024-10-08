@@ -5,19 +5,18 @@
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.9);
   color: #f8f8f8;
-  background: url("../public/assets/background.png") center;
+  background: url("../public/assets/background.png") center repeat-y #191717;
 }
 
 @media (prefers-color-scheme: light) {
   body {
-    background: url("../public/assets/background.png") center;
+    background: url("../public/assets/background.png") repeat-y center #181717;
   }
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    background: url("../public/assets/background.png") center;
+    background: url("../public/assets/background.png") repeat-y center #181717;
   }
 }
